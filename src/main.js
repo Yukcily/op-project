@@ -11,7 +11,7 @@ import "babel-polyfill";
 Vue.config.productionTip = false  //来关闭生产模式下给出的提示
 
 /* eslint-disable no-new */
-Vue.use(ElementUI); 
+Vue.use(ElementUI);   
 Vue.prototype.$axios = axios;
 new Vue({
   // el: '#app',
